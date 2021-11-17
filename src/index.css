@@ -1,3 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +15,191 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body{
+  font-family: montserrat;
+}
+
+header{
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  background: white;
+}
+nav{
+  width: 100%;
+  height: 100%;
+}
+
+label.logo{
+  color:black;
+  font-size: 30px;
+  line-height: 100px;
+  font-weight: bold;
+}
+
+nav ul {
+  float: right;
+  margin-right: 20px;
+  display:flex;
+  align-items: center;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 100px;
+  margin: 0 5px; 
+}
+
+nav ul li a{
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+color: #000000;
+font:medium;
+margin-right: 31px;
+}
+
+
+
+.circle {
+  width: 700px;
+  height: 700px;
+  border: 3px dashed rgba(47, 46, 65, 0.27);
+  box-sizing: border-box;
+}
+
+
+
+nav ul li a:active,nav ul li a:hover{
+  transition: .5s;
+  text-decoration: none; 
+}
+.checkbtn {
+  color: white;
+  float: right;
+  cursor: pointer;
+  display: none;
+
+}
+.checkbtn img{
+  height: 20px;
+  width: 20px;
+  margin-top: 30px;
+  margin-right:40px;
+  cursor: pointer;
+}
+#checkbox{
+  display: none;
+}
+
+.bg-send{
+background: linear-gradient(180deg, rgba(254, 141, 123, 0.9) 0%, rgba(143, 59, 45, 0.84) 100%), linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF;
+border-radius: 5px;
+}
+.w-custom{
+  width: 800px;
+}
+.size-card{
+  width: 571.62px;
+  width: 571.62px;
+}
+.bg-contact{
+  height: 650px;
+  width: 100%;
+  opacity: 0.8;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+
+.sticky {
+  transition: all .3s;
+  height: 70px;
+  position: fixed;
+  --tw-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow); 
+
+}
+
+.sticky label.logo{
+   line-height: 70px;
+   transition: all .3s;
+
+}
+.sticky .checkbtn img{
+  margin-top: 25px;
+  transition: all .3s;
+}
+
+.sticky nav ul li {
+  line-height: 70px;
+  transition: all .3s;
+
+}
+
+@media (max-width: 720px){
+  .size-card{
+    width: 281px;
+    height: 210px;
+  }
+}
+
+@media (max-width: 952px){
+  nav ul li a{
+  font-size: 16px;
+
+  }
+}
+
+@media (max-width: 852px){
+  .sticky nav ul{
+    margin-top:-10px
+  }
+  
+  label.logo{
+    font-size: 18px;
+    padding-left: 50px;
+  }
+
+.checkbtn{
+  display: block;
+}
+
+nav ul li{
+  display: block;
+  line-height: 50px;
+}
+nav ul li a{
+  font-size: 16px;
+}
+nav ul li a:active,nav ul li a:hover{
+  background:none;
+  color: #0082e6;
+}
+nav ul{
+  display:block;
+  padding-left: 10px;
+  position: fixed;
+  height: 100vh;
+  background:#d3d0cc; 
+  top: 80px;
+  left: -100%;
+  text-align: start;
+  transition: all .5s;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  --tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+#checkbox:checked ~ ul{
+  left:0;
+}
+
 }
