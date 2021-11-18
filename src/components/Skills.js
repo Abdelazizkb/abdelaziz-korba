@@ -26,8 +26,8 @@ function Skills() {
                     <span data-aos="ease-in" className="text-xl md:text-4xl font-pop font-bold text-custom-orange md:mb-0 md:-mt-16">
                        My skills
                     </span>
-                    <p className=" md:block text-lg md:text-xl font-pop md:font-bold  md:my-2">Technologies that I will use to  </p>
-                    <p className=" md:block text-lg md:text-xl font-pop md:font-bold  ">implement your website</p>
+                    <p className=" md:block text-lg md:text-xl font-pop md:font-medium  md:my-2">Technologies that I will use to  </p>
+                    <p className=" md:block text-lg md:text-xl font-pop md:font-medium  ">implement your website</p>
 
                 </div>
 

@@ -21,11 +21,11 @@ function About() {
                         <div className="md:mb-12">
                             <span className="text-lg md:text-2xl font-pop font-bold float">I'm Korba Abdelaziz</span>
                             <div className="hidden md:block">
-                                <p className="text-lg font-pop font-normal text-gray-700 mt-4">student master degree ,Experienced Full Stack web</p> 
-                                <p className="text-lg font-pop font-normal text-gray-700 my-2">developer Skilled in ReactJs and Django... , Strong</p> 
-                                <p className="text-lg font-pop font-normal text-gray-700 my-2">engineering professional with a  Licentiate degree</p> 
-                                <p className="text-lg font-pop font-normal text-gray-700 my-2">focused in management Information Systems,</p> 
-                                <p className="text-lg font-pop font-normal text-gray-700 ">from university constantine 2.</p> 
+                                <p className="text-xl font-meduim font-pop text-gray-700 mt-4">student master degree ,Experienced Full Stack web</p> 
+                                <p className="text-xl font-meduim font-pop text-gray-700 my-2">developer Skilled in ReactJs and Django... , Strong</p> 
+                                <p className="text-xl font-meduim font-pop text-gray-700 my-2">engineering professional with a  Licentiate degree</p> 
+                                <p className="text-xl font-meduim font-pop text-gray-700 my-2">focused in management Information Systems,</p> 
+                                <p className="text-xl font-meduim font-pop text-gray-700 ">from university constantine 2.</p> 
                             </div>
                             <div className="block md:hidden text-left">
                                 <p className="text-sm  font-pop font-normal text-gray-700 mt-1">student master degree Strong  </p> 

@@ -37,10 +37,13 @@ function NavBar() {
             </label>
             <label className="logo font-pop lg:ml-10 xl:ml-0">Abdelazizkb</label>
             <ul>
-                <li><a className="font-pop font-meduim hover:text-custom-orange" href="#about">About</a></li>
-                <li><a className="font-pop font-meduim hover:text-custom-orange" href="#services">Services</a></li>
-                <li><a className="font-pop font-meduim hover:text-custom-orange" href="#projects">Experience</a></li>
-                <li><a className="font-pop font-normal bg-custom-orange text-white p-2 rounded-md block " href="#contact"><span className="flex align-text-center items-center"><img className="w-6 h-6 mr-2 inline" src={mail} />Contact me</span> </a></li>
+                <li><a className="font-pop font-medium hover:text-custom-orange" href="#about">About</a></li>
+                <li><a className="font-pop font-medium hover:text-custom-orange" href="#services">Services</a></li>
+                <li><a className="font-pop font-medium hover:text-custom-orange" href="#projects">Experience</a></li>
+                <li><a className="font-pop font-medium md:font-normal md:bg-custom-orange md:text-white md:p-2 rounded-md block " href="#contact">
+                  <span className="flex align-text-center items-center"><img className="w-6 h-6 mr-2 inline hidden md:block" src={mail} />Contact me</span>
+                  </a>
+                </li>
             </ul>
         </nav>
         </header>

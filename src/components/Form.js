@@ -33,27 +33,27 @@ function Form() {
     }, [])
 
     return (
-    <form className="relative form  flex items-center py-8 px-16 " onSubmit={(e)=>sendMail(e)}> 
+    <form data-aos="fade-left" className="relative form  flex items-center py-8 px-16 " onSubmit={(e)=>sendMail(e)}> 
       <div className="absolute h-full w-full top-0 left-0  rounded" />
 
       <div className="flex flex-col">
         <div className="relative flex flex-wrap -mx-3">
           <div className="w-full px-3">
-            <input name="name" data-aos="fade-left" id="name" placeholder="Full name"
+            <input name="name"  id="name" placeholder="Full name"
               className="appearance-none block w-full font-medium font-pop font-normal bg-white border border-gray-200  py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 rounded-lg"
               type="text" onChange={e=>handleChange(e)} required/>
           </div>
         </div>
         <div className="relative flex flex-wrap -mx-3 ">
           <div className="w-full px-3">
-            <input data-aos="fade-left" name="email" placeholder="Email"
+            <input  name="email" placeholder="Email"
               className="appearance-none block w-full font-medium font-pop font-normal bg-white  border border-gray-200  py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 rounded-lg"
               id="email" type="email" onChange={e=>handleChange(e)} required/>
           </div>
         </div>
         <div className="relative flex flex-wrap -mx-3 md:mb-2">
           <div className="w-full px-3">
-            <textarea data-aos="fade-left" name="message" placeholder="Message"
+            <textarea  name="message" placeholder="Message"
               className=" no-resize appearance-none block w-full font-medium font-pop font-normal bg-white  border border-gray-200  py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none rounded-lg"
               onChange={e=>handleChange(e)} id="message"></textarea>
           </div>

@@ -11,7 +11,7 @@ function Contact() {
         AOS.init({duration: 3000});
     }, [])
     return (
-        <div id="contact" data-aos="fade-up" className="mt-24 py-8 bg-gray-700 overflow-hidden">
+        <div id="contact" data-aos="fade-up" className="md:mt-24 py-8 bg-gray-700 overflow-hidden">
             <div className="container mx-auto xl:px-20  flex justify-around items-center flex-wrap">
                 <div className="relative flex flex-col items-center md:items-start text-white">
                     <span className="text-2xl md:text-4xl font-pop font-bold text-custom-orange my-4 md:my-2">

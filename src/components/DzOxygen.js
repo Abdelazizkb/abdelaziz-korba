@@ -18,12 +18,12 @@ function DzOxygen() {
     return (
         <div className="container mx-auto 2xl:px-20 flex flex-wrap-reverse justify-center md:justify-around items-center"  >
         <div>
-            <div className="">
+            <div className="my-2">
                 <span className="text-custom-blue text-lg md:text-2xl font-pop font-bold ">DzOxygene (prototype)</span>
                 <div className="">
-                    <p className="text-sm md:text-lg font-pop font-normal text-gray-700 mt-4">Dzoxygen platform for sale and donate </p> 
-                    <p className="text-sm md:text-lg font-pop font-normal text-gray-700 my-2">oxygen within the covid-19 panedemic </p> 
-                    <p className="text-sm md:text-lg font-pop font-normal text-gray-700 my-2">90% completed </p> 
+                    <p className="text-sm md:text-xl font-pop font-medium text-gray-700 mt-2">Dzoxygen platform for sale and donate </p> 
+                    <p className="text-sm md:text-xl font-pop font-medium text-gray-700 my-2">oxygen within the covid-19 panedemic </p> 
+                    <p className="text-sm md:text-xl font-pop font-medium text-gray-700 my-2">90% completed </p> 
                 </div>
                 <div className="flex flex-wrap items-center justify-around -mt-6 md:mt-2 ">
                     <img src={django} title="django" alt="django"/>
@@ -35,9 +35,9 @@ function DzOxygen() {
             </div>
 
         </div>
-        <a className="relative" href="https://dzoxygen.herokuapp.com/" target="_blank" onMouseEnter={()=>{setShow(true)}} onMouseLeave={()=>setShow(false)}>
+        <a className="relative" href="#"  onMouseEnter={()=>{setShow(true)}} onMouseLeave={()=>setShow(false)}>
             <img data-aos="flip-left" className="w-72 md:w-80 2xl:w-auto " src={dzoxygen}/>
-            <div className={`absolute w-full h-full text-lg font-pop font-medium rounded-lg bg-white top-0 left-0 flex items-center justify-center opacity-50 ${(!show)&&" hidden"}`}><img className="mr-2" src={demo} alt="demo"/>Demo</div>
+            <div className={`absolute w-full h-full text-lg font-pop font-medium rounded-lg bg-white top-0 left-0 flex items-center justify-center opacity-50 ${(!show)&&" hidden"}`}><img className="mr-2" src={demo} alt="demo"/>Coming soon</div>
         </a>
         
     </div>

@@ -93,7 +93,7 @@ nav ul li a:active,nav ul li a:hover{
 .checkbtn img{
   height: 20px;
   width: 20px;
-  margin-top: 30px;
+  margin-top: 40px;
   margin-right:40px;
   cursor: pointer;
 }
@@ -139,9 +139,15 @@ border-radius: 5px;
   transition: all .3s;
 }
 
-.sticky nav ul li {
-  line-height: 70px;
-  transition: all .3s;
+
+
+
+@media (min-width: 720px){
+  .sticky nav ul li {
+    line-height: 70px;
+    transition: all .3s;
+  
+  }
 
 }
 
@@ -150,6 +156,7 @@ border-radius: 5px;
     width: 281px;
     height: 210px;
   }
+
 }
 
 @media (max-width: 952px){
@@ -175,7 +182,7 @@ border-radius: 5px;
 
 nav ul li{
   display: block;
-  line-height: 50px;
+  line-height: 40px;
 }
 nav ul li a{
   font-size: 16px;
@@ -189,7 +196,8 @@ nav ul{
   padding-left: 10px;
   position: fixed;
   height: 100vh;
-  background:#d3d0cc; 
+  width: 60%;
+  background:#f5f2ee; 
   top: 80px;
   left: -100%;
   text-align: start;

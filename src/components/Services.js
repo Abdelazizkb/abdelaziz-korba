@@ -16,8 +16,8 @@ function Services() {
                     <span className="text-xl md:text-4xl font-pop font-bold text-custom-orange md:-mt-16">
                        My services
                     </span>
-                    <p className="text-lg md:text-xl font-pop md:font-bold  my-2">I provide a wide range of creative </p>
-                    <p className="text-lg md:text-xl font-pop md:font-bold  ">services</p>
+                    <p className="text-lg md:text-xl font-pop md:font-medium  my-2">I provide a wide range of creative </p>
+                    <p className="text-lg md:text-xl font-pop md:font-medium  ">services</p>
                 </div>
 
                 <div>
