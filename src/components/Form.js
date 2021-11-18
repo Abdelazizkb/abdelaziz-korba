@@ -1,4 +1,4 @@
-import React,{useEffect, useState} from 'react'
+import React,{useEffect} from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import emailjs from 'emailjs-com';
@@ -8,13 +8,6 @@ import emailjs from 'emailjs-com';
 
 function Form() {
 
-
-    const [form, setForm] = useState({name:"",email:"",message:""})
-    const {name, email, message} = form;
-
-    const handleChange=(e)=>{
-          setForm({...form,[e.target.name]:e.target.value})
-    }
 
     const sendMail=(e)=>{
       e.preventDefault()
@@ -41,21 +34,21 @@ function Form() {
           <div className="w-full px-3">
             <input name="name"  id="name" placeholder="Full name"
               className="appearance-none block w-full font-medium font-pop font-normal bg-white border border-gray-200  py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 rounded-lg"
-              type="text" onChange={e=>handleChange(e)} required/>
+              type="text"  required/>
           </div>
         </div>
         <div className="relative flex flex-wrap -mx-3 ">
           <div className="w-full px-3">
             <input  name="email" placeholder="Email"
               className="appearance-none block w-full font-medium font-pop font-normal bg-white  border border-gray-200  py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 rounded-lg"
-              id="email" type="email" onChange={e=>handleChange(e)} required/>
+              id="email" type="email"  required/>
           </div>
         </div>
         <div className="relative flex flex-wrap -mx-3 md:mb-2">
           <div className="w-full px-3">
             <textarea  name="message" placeholder="Message"
               className=" no-resize appearance-none block w-full font-medium font-pop font-normal bg-white  border border-gray-200  py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none rounded-lg"
-              onChange={e=>handleChange(e)} id="message"></textarea>
+               id="message"></textarea>
           </div>
         </div>
         <div>

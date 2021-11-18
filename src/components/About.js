@@ -16,7 +16,7 @@ function About() {
                     About me
                 </div>
                 <div className="w-5/6 xl:w-4/6 flex flex-wrap justify-center lg:justify-between items-center">
-                    <img data-aos="zoom-in" className="w-64 md:w-80 2xl:w-auto " src={about}/>
+                    <img data-aos="zoom-in" className="w-64 md:w-80 2xl:w-auto " src={about} alt="me"/>
                     <div>
                         <div className="md:mb-12">
                             <span className="text-lg md:text-2xl font-pop font-bold float">I'm Korba Abdelaziz</span>
@@ -36,8 +36,8 @@ function About() {
                                 <p className="text-sm  font-pop font-normal text-gray-700 my-1">Skilled in ReactJs and Django.</p> 
                             </div>
                             <div className="flex flex-wrap items-end mt-4  ">
-                                <span className="flex items-center text-sm md:text-lg font-pop font-medium text-gray-700 mr-10 "><img className="mr-3" src={mailB}/>korbaabdo@gmail.com</span>
-                                <span className="flex items-center text-sm md:text-lg font-pop font-medium text-gray-700 mt-2 md:mt-0"><img className="mr-2"src={phone}/>+213 779 247 735</span>
+                                <span className="flex items-center text-sm md:text-lg font-pop font-medium text-gray-700 mr-10 "><img className="mr-3" src={mailB} alt=""/>korbaabdo@gmail.com</span>
+                                <span className="flex items-center text-sm md:text-lg font-pop font-medium text-gray-700 mt-2 md:mt-0"><img className="mr-2"src={phone} alt=""/>+213 779 247 735</span>
                             </div>
                         </div>
 

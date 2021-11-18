@@ -11,7 +11,7 @@ function NavBar() {
         var header = document.getElementById("myHeader");
         
         // Get the offset position of the navbar
-        var sticky = header.offsetTop;
+        //var sticky = header.offsetTop;
         
         // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
         function myFunction() {
@@ -32,8 +32,8 @@ function NavBar() {
         <header className="fixed top-0 z-40" id="myHeader" >
         <nav className="container mx-auto xl:px-20">
             <input type="checkbox" id="checkbox" />
-            <label for="checkbox" className="checkbtn">
-                <img src={menu} />
+            <label  className="checkbtn">
+                <img src={menu} alt="menu"/>
             </label>
             <label className="logo font-pop lg:ml-10 xl:ml-0">Abdelazizkb</label>
             <ul>
@@ -41,7 +41,7 @@ function NavBar() {
                 <li><a className="font-pop font-medium hover:text-custom-orange" href="#services">Services</a></li>
                 <li><a className="font-pop font-medium hover:text-custom-orange" href="#projects">Experience</a></li>
                 <li><a className="font-pop font-medium md:font-normal md:bg-custom-orange md:text-white md:p-2 rounded-md block " href="#contact">
-                  <span className="flex align-text-center items-center"><img className="w-6 h-6 mr-2 inline hidden md:block" src={mail} />Contact me</span>
+                  <span className="flex align-text-center items-center"><img className="w-6 h-6 mr-2 inline hidden md:block" src={mail} alt=""/>Contact me</span>
                   </a>
                 </li>
             </ul>

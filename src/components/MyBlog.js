@@ -1,6 +1,5 @@
 import React,{useEffect,useState} from 'react'
 import myblog from '../images/myblog.png'
-import mailB from '../icons/mailB.png'
 import django from '../icons/django.png'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -18,7 +17,7 @@ function MyBlog() {
     
     return (
     <div className="container mx-auto 2xl:px-20 flex flex-wrap justify-center md:justify-around md:items-center md:mb-16">
-        <a className="relative" href="https://abdelazizkb-blog.herokuapp.com/" target="_blank" onMouseEnter={()=>{setShow(true)}} onMouseLeave={()=>setShow(false)}>
+        <a className="relative" href="https://abdelazizkb-blog.herokuapp.com/" target="_blank" rel="noopener noreferrer" onMouseEnter={()=>{setShow(true)}} onMouseLeave={()=>setShow(false)}>
             <img data-aos="flip-right" className="w-72 md:w-80 2xl:w-auto " src={myblog} alt="my blog"/>
             <div className={`absolute w-full h-full text-lg font-pop font-medium rounded-lg bg-white top-0 left-0 flex items-center justify-center opacity-50 ${(!show)&&" hidden"}`}><img className="mr-2" src={demo} alt="demo"/>Demo</div>
         </a>

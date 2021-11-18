@@ -10,7 +10,7 @@ function Development() {
 
     return (
         <div data-aos="fade-left" className="py-4 md:py-8 px-2 md:px-6 bg-white shadow-xl mx-2 md:mx-10 rounded-lg flex flex-wrap items-center justify-center size-card ">
-                <img className="md:mr-6" src={development}/>
+                <img className="md:mr-6" src={development} alt="icon development"/>
                 <div className="hidden md:block">
                     <p className="text-sm md:text-xl font-bold font-pop text-gray-700  md:mb-3">Build your website Professionally</p>
                     <p className="text-sm md:text-xl font-medium font-pop text-gray-500">I can create dynamic website using </p>

@@ -12,10 +12,10 @@ function SocialMedia() {
     }, [])
     return (
         <div className="flex justify-between items-center w-44">
-          <a data-aos="zoom-in" href="https://www.facebook.com/abdelaziz.korba.7" target="_blank"><img class="w-8" src={facebook}/></a>
-          <a data-aos="zoom-in" href="https://github.com/Abdelazizkb" target="_blank"><img class="w-8 pl-1" src={github}/></a>
-          <a data-aos="zoom-in" href="https://dz.linkedin.com/in/abdelaziz-korba" target="_blank"><img class="w-8 mx-2" src={linkedin}/></a>
-          <a data-aos="zoom-in" href="https://www.instagram.com/abdelaziz_krb" target="_blank"><img class="w-8" src={instagram}/></a>
+          <a data-aos="zoom-in" href="https://www.facebook.com/abdelaziz.korba.7" target="_blank" rel="noopener noreferrer"><img className="w-8" src={facebook} alt=""/></a>
+          <a data-aos="zoom-in" href="https://github.com/Abdelazizkb" target="_blank" rel="noopener noreferrer"><img className="w-8 pl-1" src={github} alt=""/></a>
+          <a data-aos="zoom-in" href="https://dz.linkedin.com/in/abdelaziz-korba" target="_blank" rel="noopener noreferrer"><img className="w-8 mx-2" src={linkedin} alt=""/></a>
+          <a data-aos="zoom-in" href="https://www.instagram.com/abdelaziz_krb" target="_blank" rel="noopener noreferrer"><img className="w-8" src={instagram} alt=""/></a>
         </div>
     )
 }

@@ -10,7 +10,7 @@ function Design() {
 
     return (
         <div data-aos="fade-left" className="py-4 md:py-8 px-2 md:px-6 bg-white shadow-xl mx-2 md:mx-10 rounded-lg flex flex-wrap items-center justify-center size-card">
-                <img className="md:mr-10" src={design}/>
+                <img className="md:mr-10" src={design} alt="icon design"/>
                 <div className="hidden md:block">
                     <p className="text-xl font-bold font-pop text-gray-700 mb-3">Make powerfull ui-ux design</p>
                     <p className="text-lg font-medium font-pop text-gray-500">Create powerful design with figma  </p>

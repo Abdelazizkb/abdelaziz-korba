@@ -22,9 +22,9 @@ function Hero() {
                 <p className="text-xl font-meduim font-pop text-gray-700 hidden md:block ">Experienced Full Stack web developer Skilled in ReactJs</p>
                 <p className="text-xl font-meduim font-pop text-gray-700 my-2 hidden md:block">    and Django... , Strong engineering professional with a</p>
                 <p className="text-xl font-meduim font-pop text-gray-700 hidden md:block">    Licentiate degree . </p>
-                <img className="mt-12  hidden md:block" src={cercles}/>
+                <img className="mt-12  hidden md:block" src={cercles} alt=""/>
              </div>  
-             <img className="w-80 md:w-96 2xl:w-auto " src={heroXl}/>
+             <img className="w-80 md:w-96 2xl:w-auto " src={heroXl} alt="my" />
             </div>
         </div>
     )
