@@ -26,10 +26,10 @@ function Form() {
     }, [])
 
     return (
-    <form data-aos="fade-left" className="relative form  flex items-center py-8 px-16 " onSubmit={(e)=>sendMail(e)}> 
+    <form data-aos="fade-left" className="relative w-full  flex items-center py-8 px-16 " onSubmit={(e)=>sendMail(e)}> 
       <div className="absolute h-full w-full top-0 left-0  rounded" />
 
-      <div className="flex flex-col">
+      <div className="flex flex-col w-full">
         <div className="relative flex flex-wrap -mx-3">
           <div className="w-full px-3">
             <input name="name"  id="name" placeholder="Full name"

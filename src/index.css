@@ -112,6 +112,10 @@ border-radius: 5px;
   width: 571.62px;
   width: 571.62px;
 }
+.size-project{
+  max-width: 628px;
+  max-height: 448px;
+}
 .bg-contact{
   height: 650px;
   width: 100%;
@@ -153,7 +157,7 @@ border-radius: 5px;
 
 @media (max-width: 720px){
   .size-card{
-    width: 281px;
+    width: 261px;
     height: 210px;
   }
 

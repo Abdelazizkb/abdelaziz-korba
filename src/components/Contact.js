@@ -21,7 +21,7 @@ function Contact() {
                     <p className="hidden md:block text-lg md:text-xl font-pop font-medium  mb-4">following social media platforms</p>   
                     <SocialMedia/>
                 </div>
-                <div>
+                <div style={{width:500}}>
                     <Form/>
                 </div>
 

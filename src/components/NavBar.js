@@ -30,7 +30,7 @@ function NavBar() {
 
     return (
         <header className="fixed top-0 z-40" id="myHeader" >
-        <nav className="container mx-auto xl:px-20">
+        <nav className="container mx-auto  xl:px-20 2xl:px-36">
             <input type="checkbox" id="checkbox" />
             <label for="checkbox" className="checkbtn">
                 <img src={menu} alt="menu"/>
