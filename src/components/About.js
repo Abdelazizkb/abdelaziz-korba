@@ -11,7 +11,7 @@ function About() {
     }, [])
     return (
         <div id="about" data-aos="fade-up" className="w-full bg-custom-backSm md:bg-custom-backXl py-4 sm:py-16">
-            <div className="container mx-auto 2xl:px-20 flex flex-col items-center ">
+            <div className="container mx-auto 2xl:px-10 flex flex-col items-center ">
                 <div className="text-xl md:text-4xl font-pop font-bold text-custom-orange mb-4 md:mb-12">
                     About me
                 </div>
