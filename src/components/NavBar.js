@@ -35,7 +35,7 @@ function NavBar() {
             <label for="checkbox" className="checkbtn">
                 <img src={menu} alt="menu"/>
             </label>
-            <label className="logo font-pop lg:ml-10 xl:ml-0">Abdelazizkb</label>
+            <label className="logo font-pop lg:ml-10 xl:ml-6">Abdelazizkb</label>
             <ul>
                 <li><a className="font-pop font-medium hover:text-custom-orange" href="#about">About</a></li>
                 <li><a className="font-pop font-medium hover:text-custom-orange" href="#services">Services</a></li>

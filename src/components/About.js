@@ -10,13 +10,13 @@ function About() {
         AOS.init({duration: 3000});
     }, [])
     return (
-        <div id="about" data-aos="fade-up" className="w-full bg-custom-backSm md:bg-custom-backXl py-4 sm:py-16">
+        <div id="about" data-aos="fade-up" className="w-full bg-custom-backSm md:bg-custom-backXl py-16 sm:py-6 -mt-24 sm:mt-0">
             <div className="container mx-auto 2xl:px-10 flex flex-col items-center ">
                 <div className="text-xl md:text-4xl font-pop font-bold text-custom-orange mb-4 md:mb-12">
                     About me
                 </div>
                 <div className="w-5/6 xl:w-4/6 flex flex-wrap justify-center lg:justify-between items-center">
-                    <img data-aos="zoom-in" className="w-64 md:w-80 2xl:w-auto " src={about} alt="me"/>
+                    <img data-aos="zoom-in" className="w-64 md:w-80 2xl:w-auto " src={about} alt="me" style={{maxWidth:340}}/>
                     <div>
                         <div className="md:mb-12">
                             <span className="text-lg md:text-2xl font-pop font-bold float">I'm Korba Abdelaziz</span>

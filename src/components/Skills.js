@@ -32,18 +32,18 @@ function Skills() {
                 </div>
 
                 <div data-aos="zoom-in" className="relative w-64 h-64 md:w-auto md:h-auto overflow-hidden">
-                    <img className="animate-spin-slow w-64 h-64 md:w-auto md:h-auto" src={circle} alt="circle" style={{maxHeight:570}}/>
+                    <img className="animate-spin-slow w-64 h-64 xl:w-auto xl:h-auto size-circle" src={circle} alt="circle"/>
                     <p className="hidden md:block absolute bottom-1/2 left-1/2 -ml-8 -mb-4 text-lg md:text-2xl font-pop font-bold ">AB-K</p>
-                    <img className="w-8 md:w-auto absolute bottom-24 left-16 md:bottom-48 md:left-36" src={django} alt="django"/>
-                    <img className="w-8 md:w-auto absolute top-20 right-20 md:top-32 md:right-52" src={react} alt="react"/>
-                    <img className="w-8 md:w-auto absolute bottom-20 right-20  md:bottom-44 md:right-40" src={tailwind} alt="tailwind"/>
-                    <img className="w-8 md:w-auto absolute top-28 right-8 md:top-56 md:right-16" src={js} alt="js"/>
-                    <img className="w-8 md:w-auto absolute bottom-8 left-24 md:bottom-16 md:left-56" src={python} alt="python"/>
-                    <img className="w-8 md:w-auto absolute top-16 left-12 md:top-40 md:left-20" src={boostrap} alt="boostrap"/>
-                    <img className="w-8 md:w-auto absolute bottom-5 right-12 md:bottom-16 md:right-20" src={mysql} alt="mysql"/>
-                    <img className="w-8 md:w-auto absolute top-10 right-7 md:top-20 md:right-16" src={html} alt="html"/>
-                    <img className="w-8 md:w-auto absolute top-1 left-28 md:top-1 md:left-48" src={css} alt="css"/>
-                    <img className="w-8 md:w-auto absolute bottom-24 left-1 md:bottom-68 md:left-6" src={jquery} alt="jquery"/> 
+                    <img className="w-8 xl:w-auto absolute bottom-24 left-16 xl:bottom-48 xl:left-36" src={django} alt="django"/>
+                    <img className="w-8 xl:w-auto absolute top-20 right-20 xl:top-32 xl:right-52" src={react} alt="react"/>
+                    <img className="w-8 xl:w-auto absolute bottom-20 right-20  xl:bottom-44 xl:right-40" src={tailwind} alt="tailwind"/>
+                    <img className="w-8 xl:w-auto absolute top-28 right-8 xl:top-56 xl:right-16" src={js} alt="js"/>
+                    <img className="w-8 xl:w-auto absolute bottom-8 left-24 xl:bottom-16 xl:left-56" src={python} alt="python"/>
+                    <img className="w-8 xl:w-auto absolute top-16 left-12 xl:top-40 xl:left-20" src={boostrap} alt="boostrap"/>
+                    <img className="w-8 xl:w-auto absolute bottom-5 right-12 xl:bottom-16 xl:right-20" src={mysql} alt="mysql"/>
+                    <img className="w-8 xl:w-auto absolute top-10 right-7 xl:top-20 xl:right-16" src={html} alt="html"/>
+                    <img className="w-8 xl:w-auto absolute top-1 left-28 xl:top-1 xl:left-48" src={css} alt="css"/>
+                    <img className="w-8 xl:w-auto absolute bottom-24 left-1 xl:bottom-68 xl:left-6" src={jquery} alt="jquery"/> 
 
 
                     {/*            

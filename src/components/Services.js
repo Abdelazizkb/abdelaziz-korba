@@ -10,9 +10,9 @@ function Services() {
     }, [])
 
     return (
-        <div id="services" data-aos="fade-up" className="bg-custom-backSm md:bg-custom-backXl py-8 md:py-28">
+        <div id="services" data-aos="fade-up" className="bg-custom-backSm md:bg-custom-backXl py-8 md:py-16">
             <div className="container mx-auto 2xl:px-20  flex justify-around items-center flex-wrap">
-                <div className="flex flex-col items-center md:items-start mb-4 md:mb-16">
+                <div className="flex flex-col items-center xl:items-start mb-4 md:mb-16">
                     <span className="text-xl md:text-4xl font-pop font-bold text-custom-orange md:-mt-16">
                        My services
                     </span>

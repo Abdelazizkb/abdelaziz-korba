@@ -113,9 +113,14 @@ border-radius: 5px;
   width: 571.62px;
 }
 .size-project{
-  max-width: 628px;
-  max-height: 448px;
+  max-width: 528px;
+  max-height: 368px;
 }
+
+.size-circle{
+  max-height: 570px;
+}
+
 .bg-contact{
   height: 650px;
   width: 100%;
@@ -161,6 +166,7 @@ border-radius: 5px;
     height: 210px;
   }
 
+
 }
 
 @media (max-width: 952px){
@@ -169,6 +175,7 @@ border-radius: 5px;
 
   }
 }
+
 
 @media (max-width: 852px){
   .sticky nav ul{
