@@ -1,0 +1,68 @@
+@import "compass/css3";
+
+$year-in-second : 30; // 1 année terrestre = 30 sec
+
+@function revolution($pl-year-in-days){
+  @return $pl-year-in-days * $year-in-second / 365.2563 + s
+}
+$sun: 40px;
+$earth-orb : 284px; $earth-pl: 18px;
+
+.sun, .earth{
+  border-radius : 99em;
+}
+.univers{
+  posiation: relative;
+}
+// Style du Soleil
+.sun{
+  background: #3484f2;
+  height: $sun;
+  width: $sun;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  @include translate(-50%, -50%);
+}
+// Style de la Terre
+.earth{
+  animation: orb revolution(130) linear infinite;
+  height: $earth-orb;
+  width: $earth-orb;
+  border: 2px solid #d8d9dd;
+  position: relative;
+  
+  &:before{
+    content: '';
+    background: #3484f2;
+    height: $earth-pl;
+    width: $earth-pl;
+    position: absolute;
+    border-radius: 99em;
+    top: 0;
+    left: 50%;
+    @include translate(-50%, -50%) // Compass pour centrer la planète sur l'orbite.
+  }
+  &:after{
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px; 
+    left: 50%;
+    top: 0px;
+    margin-left: -9px;
+    margin-top: -9px;
+    border-radius: 100px;
+    box-shadow: 0 -19px 0 -7px #3484f2;
+    animation: orb revolution(27.3216) linear infinite;
+  }
+}
+
+@keyframes orb{
+  from {
+    transform:rotate(0deg)
+  }
+  to{
+    transform:rotate(-360deg)
+  }
+}

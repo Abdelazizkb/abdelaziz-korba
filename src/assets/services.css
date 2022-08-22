@@ -1,0 +1,63 @@
+.service{
+    position: relative;
+    width: 30%;
+    height: 120px;
+}
+.service-title{
+    height: 100%;
+    width: 98%;
+    position: absolute;
+    top:3%;
+    left: 1%;
+    border-radius: 6px;
+    background: white;
+    z-index: 5;
+}
+.service-border {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    border-radius: 6px;
+    clip-path: polygon(
+        0% 0%,
+        100% 0%,
+        100% 50%,
+        10% 50%,
+        10% 100%,
+        0% 100%
+    );
+    z-index: 4;
+}
+
+
+.service-icon{
+    position: absolute;
+    top: 92%;
+    left: -6%;
+    width: 15px;
+    height: 15px;
+}
+
+.service-title::after{
+    content: '';
+    position: absolute;
+    top: 46%;
+    left: 98%;
+    margin-left: 2px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 516px) {
+    .service {
+      width: 75%;
+    }
+    .service-title::before{
+        left: -9%;
+    }
+    .service-title::after{
+        left: 96%;
+    }
+  }
