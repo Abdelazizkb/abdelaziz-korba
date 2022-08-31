@@ -18,7 +18,8 @@ module.exports = {
       },
       colors: {
         primary: "#FE8D7B",
-        orange : ""
+        orange : "",
+        cover:"#FAFBFB",
       },
       backgroundImage: {
         Hero: "url('assets/Hero.png')",

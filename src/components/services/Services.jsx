@@ -3,7 +3,7 @@ import Service from './Service'
 
 function Services() {
     return (
-        <div className="mt-5 ">
+        <div className="my-4 py-8 bg-gray-100/40">
             <div className="container max-w-6xl mx-auto flex flex-col justify-center items-center flex-wrap">
                 <span className="text-primary  font-bold text-6xl mb-7 font-[Poppins]">
                     Services I offer

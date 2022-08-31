@@ -5,7 +5,7 @@ import Buttonblur from './Buttonblur'
 
 function About() {
   return (
-    <div className='w-full  bg-gray-100 mb-10'>
+    <div className='w-full  bg-gray-100/40 mb-10'>
         <div className='container max-w-6xl mx-auto flex items-center justify-between'>
             <div className='mr-5 flex flex-col items-start'>
                 <h1 className='text-primary font-bold text-6xl mb-7 font-[Poppins]'>Who I'm !</h1>
